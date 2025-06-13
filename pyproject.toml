@@ -70,7 +70,7 @@ static-code-analysis = [
     "pyroma == 4.2",
 ]
 dependency-scan = [
-    "pip-audit == 2.9.0",
+    "pip-audit == 2.7.3",
 ]
 sorting-imports = [
     "isort == 5.13.2"
@@ -80,6 +80,7 @@ sorting-imports = [
 [build-system]
 requires = [
     "setuptools >= 42",
+    "setuptools-scm",
     "wheel"
 ]
 build-backend = "setuptools.build_meta"

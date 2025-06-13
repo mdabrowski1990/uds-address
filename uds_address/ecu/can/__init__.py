@@ -15,7 +15,6 @@ __all__ = [
 
 from uds.can import CanAddressingFormat, CanAddressingInformation
 
-
 ECU_39106_08254 = CanAddressingInformation(addressing_format=CanAddressingFormat.NORMAL_11BIT_ADDRESSING,
                                            tx_physical={"can_id": 0x7E0},
                                            rx_physical={"can_id": 0x7E8},

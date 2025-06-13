@@ -81,4 +81,4 @@ jobs:
 
       - name: Check imports are sorted [isort]
         run: |
-          isort uds_address
+          isort uds_address -c -v
