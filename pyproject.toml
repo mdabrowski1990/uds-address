@@ -62,7 +62,7 @@ dynamic = ["version"]
 
 [project.optional-dependencies]
 static-code-analysis = [
-    "prospector == 1.10.3",
+    "prospector == 1.17.1",
     "mypy == 1.9.0",
     "vulture == 2.11",
     "bandit == 1.7.8",
