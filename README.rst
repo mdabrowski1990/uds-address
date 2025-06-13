@@ -27,24 +27,24 @@ Contact
 .. _py-uds: https://github.com/mdabrowski1990/uds
 
 
-.. |LatestVersion| image:: https://img.shields.io/pypi/v/py-uds-ecu-address.svg
-   :target: https://pypi.python.org/pypi/py-uds-ecu-address
+.. |LatestVersion| image:: https://img.shields.io/pypi/v/py-uds-address.svg
+   :target: https://pypi.python.org/pypi/py-uds-address
    :alt: The latest Version of UDS package
 
-.. |PythonVersions| image:: https://img.shields.io/pypi/pyversions/py-uds-ecu-address.svg
-   :target: https://pypi.python.org/pypi/py-uds-ecu-address/
+.. |PythonVersions| image:: https://img.shields.io/pypi/pyversions/py-uds-address.svg
+   :target: https://pypi.python.org/pypi/py-uds-address/
    :alt: Supported Python versions
 
-.. |PyPIStatus| image:: https://img.shields.io/pypi/status/py-uds-ecu-address.svg
-   :target: https://pypi.python.org/pypi/py-uds-ecu-address/
+.. |PyPIStatus| image:: https://img.shields.io/pypi/status/py-uds-address.svg
+   :target: https://pypi.python.org/pypi/py-uds-address/
    :alt: PyPI status
 
-.. |TotalDownloads| image:: https://pepy.tech/badge/py-uds-ecu-address
-   :target: https://pepy.tech/project/py-uds-ecu-address
+.. |TotalDownloads| image:: https://pepy.tech/badge/py-uds-address
+   :target: https://pepy.tech/project/py-uds-address
    :alt: Total PyPI downloads
 
-.. |MonthlyDownloads| image:: https://pepy.tech/badge/py-uds-ecu-address/month
-   :target: https://pepy.tech/project/py-uds-ecu-address
+.. |MonthlyDownloads| image:: https://pepy.tech/badge/py-uds-address/month
+   :target: https://pepy.tech/project/py-uds-address
    :alt: Monthly PyPI downloads
 
 .. |Licence| image:: https://img.shields.io/badge/License-MIT-blue.svg
