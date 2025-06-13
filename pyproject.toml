@@ -54,11 +54,11 @@ dynamic = ["version"]
 [project.urls]
 "Homepage" = "https://github.com/mdabrowski1990/uds"
 "User Documentation" = "https://uds.readthedocs.io"
-"Repository" = "https://github.com/mdabrowski1990/uds-ecu-address"
-"Issues Tracking System" = "https://github.com/mdabrowski1990/uds-ecu-address/issues"
-"Releases and Changelogs" = "https://github.com/mdabrowski1990/uds-ecu-address/releases"
-"PyPI" = "https://pypi.org/project/py-uds-ecu-address/"
-"Code Download" = "https://github.com/mdabrowski1990/uds-ecu-address/archive/refs/heads/main.zip"
+"Repository" = "https://github.com/mdabrowski1990/uds-address"
+"Issues Tracking System" = "https://github.com/mdabrowski1990/uds-address/issues"
+"Releases and Changelogs" = "https://github.com/mdabrowski1990/uds-address/releases"
+"PyPI" = "https://pypi.org/project/py-uds-address/"
+"Code Download" = "https://github.com/mdabrowski1990/uds-address/archive/refs/heads/main.zip"
 
 
 [project.optional-dependencies]
@@ -100,12 +100,12 @@ version = {attr = "uds_address.__version__"}
 
 [tool.setuptools.packages.find]
 include = [
-    "uds_ecu_address.*"
+    "uds_address.*"
 ]
 
 
 [tool.isort]
-src_paths = ["uds_ecu_address"]
+src_paths = ["uds_address"]
 line_length = 120
 use_parentheses = true
 include_trailing_comma = true
