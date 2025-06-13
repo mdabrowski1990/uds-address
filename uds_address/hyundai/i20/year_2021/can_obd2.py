@@ -16,7 +16,7 @@ __all__ = [
     "UNKNOWN_ECU_3"
 ]
 
-from uds_ecu_address.ecu.can.spare_part_number import (
+from uds_address.ecu.can import (
     ECU_39106_08254, ECU_56340_Q0100, ECU_58910_Q0200, ECU_91953_Q0530, ECU_95400_Q0030, ECU_95910_Q0100,
     ECU_96160_Q0420, ECU_96510_Q0000, ECU_99211_Q0100, ECU_99240_Q0000)
 
@@ -44,8 +44,7 @@ UNKNOWN_ECU_2 = CanAddressingInformation(addressing_format=CanAddressingFormat.N
                                          rx_physical={"can_id": 0x7CE},
                                          tx_functional={"can_id": 0x7DF},
                                          rx_functional={"can_id": 0x7CE})
-# SPARE PART NUMBER = 39 34 30 ?? ()
-
+# SPARE PART NUMBER = 940?? (missing the rest due to ECU communication issue)
 
 UNKNOWN_ECU_3 = CanAddressingInformation(addressing_format=CanAddressingFormat.NORMAL_11BIT_ADDRESSING,
                                          tx_physical={"can_id": 0x7F1},

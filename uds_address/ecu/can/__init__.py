@@ -1,4 +1,4 @@
-"""UDS addresses for CAN communication with ECU. ECUs are identified due to spare part number."""
+"""UDS addresses for CAN communication with ECUs that are identified by Spare Part Number."""
 
 __all__ = [
     'ECU_39106_08254',
