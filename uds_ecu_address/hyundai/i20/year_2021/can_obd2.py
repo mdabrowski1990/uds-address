@@ -1,66 +1,54 @@
 """ECUs Addresses on CAN bus that is accessible via OBD-2 port (pins 6 and 14)."""
 
-__all__ = []
+__all__ = [
+    "ABS_PUMP",
+    "AIRBAG_ECU",
+    "BODY_CONTROL_MODULE",
+    "BREAK_CONTROL_MODULE",
+    "ENGINE_CONTROL_UNIT",
+    "FRONT_CAMERA",
+    "NAVIGATION_SCREEN",
+    "REAR_CAMERA",
+    "STEERING_COLUMN",
+    "WIRELESS_ROOF_ANTENNA",
+    "UNKNOWN_ECU_1",
+    "UNKNOWN_ECU_2",
+    "UNKNOWN_ECU_3"
+]
 
-from uds.can import CanAddressingFormat, CanAddressingInformation
+from uds_ecu_address.ecu.can.spare_part_number import (
+    ECU_39106_08254, ECU_56340_Q0100, ECU_58910_Q0200, ECU_91953_Q0530, ECU_95400_Q0030, ECU_95910_Q0100,
+    ECU_96160_Q0420, ECU_96510_Q0000, ECU_99211_Q0100, ECU_99240_Q0000)
 
-# TODO: check each ECU name/responsibility
-ECU1 = CanAddressingInformation(addressing_format=CanAddressingFormat.NORMAL_11BIT_ADDRESSING,
-                                tx_physical={"can_id": 0x770},
-                                rx_physical={"can_id": 0x778},
-                                tx_functional={"can_id": 0x7DF},
-                                rx_functional={})  # TODO: check
+from uds.can import CanAddressingInformation, CanAddressingFormat
 
-ECU2 = CanAddressingInformation(addressing_format=CanAddressingFormat.NORMAL_11BIT_ADDRESSING,
-                                tx_physical={"can_id": 0x780},
-                                rx_physical={"can_id": 0x788},
-                                tx_functional={"can_id": 0x7DF},
-                                rx_functional={})  # TODO: check
+ABS_PUMP = ECU_58910_Q0200
+AIRBAG_ECU = ECU_95910_Q0100
+BODY_CONTROL_MODULE = ECU_91953_Q0530
+BREAK_CONTROL_MODULE = ECU_95400_Q0030
+ENGINE_CONTROL_UNIT = ECU_39106_08254
+FRONT_CAMERA = ECU_99211_Q0100
+NAVIGATION_SCREEN = ECU_96160_Q0420
+REAR_CAMERA = ECU_99240_Q0000
+STEERING_COLUMN = ECU_56340_Q0100
+WIRELESS_ROOF_ANTENNA = ECU_96510_Q0000
 
-ECU3 = CanAddressingInformation(addressing_format=CanAddressingFormat.NORMAL_11BIT_ADDRESSING,
-                                tx_physical={"can_id": 0x796},
-                                rx_physical={"can_id": 0x79E},
-                                tx_functional={"can_id": 0x7DF},
-                                rx_functional={})  # TODO: check
+UNKNOWN_ECU_1 = CanAddressingInformation(addressing_format=CanAddressingFormat.NORMAL_11BIT_ADDRESSING,
+                                         tx_physical={"can_id": 0x7B3},
+                                         rx_physical={"can_id": 0x7BB},
+                                         tx_functional={"can_id": 0x7DF},
+                                         rx_functional={"can_id": 0x7BB})
 
-ECU4 = CanAddressingInformation(addressing_format=CanAddressingFormat.NORMAL_11BIT_ADDRESSING,
-                                tx_physical={"can_id": 0x7A0},
-                                rx_physical={"can_id": 0x7A8},
-                                tx_functional={"can_id": 0x7DF},
-                                rx_functional={})  # TODO: check
+UNKNOWN_ECU_2 = CanAddressingInformation(addressing_format=CanAddressingFormat.NORMAL_11BIT_ADDRESSING,
+                                         tx_physical={"can_id": 0x7C6},
+                                         rx_physical={"can_id": 0x7CE},
+                                         tx_functional={"can_id": 0x7DF},
+                                         rx_functional={"can_id": 0x7CE})
+# SPARE PART NUMBER = 39 34 30 ?? ()
 
-ECU5 = CanAddressingInformation(addressing_format=CanAddressingFormat.NORMAL_11BIT_ADDRESSING,
-                                tx_physical={"can_id": 0x7B3},
-                                rx_physical={"can_id": 0x7BB},
-                                tx_functional={"can_id": 0x7DF},
-                                rx_functional={})  # TODO: check
 
-ECU6 = CanAddressingInformation(addressing_format=CanAddressingFormat.NORMAL_11BIT_ADDRESSING,
-                                tx_physical={"can_id": 0x7C6},
-                                rx_physical={"can_id": 0x7CE},
-                                tx_functional={"can_id": 0x7DF},
-                                rx_functional={})  # TODO: check
-
-ECU7 = CanAddressingInformation(addressing_format=CanAddressingFormat.NORMAL_11BIT_ADDRESSING,
-                                tx_physical={"can_id": 0x7C7},
-                                rx_physical={"can_id": 0x7CF},
-                                tx_functional={"can_id": 0x7DF},
-                                rx_functional={})  # TODO: check
-
-ECU8 = CanAddressingInformation(addressing_format=CanAddressingFormat.NORMAL_11BIT_ADDRESSING,
-                                tx_physical={"can_id": 0x7D4},
-                                rx_physical={"can_id": 0x7DC},
-                                tx_functional={"can_id": 0x7DF},
-                                rx_functional={})  # TODO: check
-
-ECU9 = CanAddressingInformation(addressing_format=CanAddressingFormat.NORMAL_11BIT_ADDRESSING,
-                                tx_physical={"can_id": 0x7E0},
-                                rx_physical={"can_id": 0x7E8},
-                                tx_functional={"can_id": 0x7DF},
-                                rx_functional={})  # TODO: check
-
-ECU10 = CanAddressingInformation(addressing_format=CanAddressingFormat.NORMAL_11BIT_ADDRESSING,
-                                 tx_physical={"can_id": 0x7F1},
-                                 rx_physical={"can_id": 0x7F9},
-                                 tx_functional={"can_id": 0x7DF},
-                                 rx_functional={})  # TODO: check
+UNKNOWN_ECU_3 = CanAddressingInformation(addressing_format=CanAddressingFormat.NORMAL_11BIT_ADDRESSING,
+                                         tx_physical={"can_id": 0x7F1},
+                                         rx_physical={"can_id": 0x7F9},
+                                         tx_functional={"can_id": 0x7DF},
+                                         rx_functional={"can_id": 0x7F9})
