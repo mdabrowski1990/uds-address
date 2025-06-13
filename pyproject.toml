@@ -79,7 +79,7 @@ sorting-imports = [
 
 [build-system]
 requires = [
-    "setuptools >= 42",
+    "setuptools >= 65.5.1",
     "setuptools-scm",
     "wheel"
 ]
