@@ -2,7 +2,6 @@
 name = "py-uds-address"
 description = "Collection of UDS addresses for various ECUs."
 readme = "README.rst"
-license-files = ["LICENSE"]
 requires-python = ">=3.8"
 classifiers = [
     "Development Status :: 5 - Production/Stable",
