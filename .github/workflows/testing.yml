@@ -54,10 +54,6 @@ jobs:
           python -m pip install --upgrade pip
           pip install .[dependency-scan]
 
-      - name: Execute dependency scanning [safety]
-        run: |
-          safety scan
-
       - name: Execute dependency scanning [pip-audit]
         run: |
           pip-audit
