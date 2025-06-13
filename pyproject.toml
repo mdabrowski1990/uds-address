@@ -2,6 +2,7 @@
 name = "py-uds-address"
 description = "Collection of UDS addresses for various ECUs."
 readme = "README.rst"
+license-files = ["LICENSE"]
 requires-python = ">=3.8"
 classifiers = [
     "Development Status :: 5 - Production/Stable",
@@ -9,7 +10,6 @@ classifiers = [
     "Intended Audience :: Education",
     "Intended Audience :: Information Technology",
     "Intended Audience :: Telecommunications Industry",
-    "License :: OSI Approved :: MIT License",
     "Natural Language :: English",
     "Operating System :: OS Independent",
     "Programming Language :: Python",
@@ -92,12 +92,13 @@ version = {attr = "uds_address.__version__"}
 
 [tool.setuptools.package-data]
 "*" = [
-    "*.md",
-    "*.rst",
-    "*.txt",
-    "*.toml"
+    "README.rst",
+    "CONTRIBUTING.md",
+    "LICENSE"
 ]
-
+"uds_address" = [
+    "*.py"
+]
 
 [tool.setuptools.packages.find]
 include = [
