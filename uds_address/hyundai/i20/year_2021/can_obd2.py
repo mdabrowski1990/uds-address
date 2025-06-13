@@ -16,11 +16,12 @@ __all__ = [
     "UNKNOWN_ECU_3"
 ]
 
+from uds.can import CanAddressingInformation, CanAddressingFormat
+
 from uds_address.ecu.can import (
     ECU_39106_08254, ECU_56340_Q0100, ECU_58910_Q0200, ECU_91953_Q0530, ECU_95400_Q0030, ECU_95910_Q0100,
     ECU_96160_Q0420, ECU_96510_Q0000, ECU_99211_Q0100, ECU_99240_Q0000)
 
-from uds.can import CanAddressingInformation, CanAddressingFormat
 
 ABS_PUMP = ECU_58910_Q0200
 AIRBAG_ECU = ECU_95910_Q0100

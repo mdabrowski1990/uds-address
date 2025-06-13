@@ -56,7 +56,7 @@ jobs:
 
       - name: Execute dependency scanning [safety]
         run: |
-          safety check -r requirements.txt
+          safety scan
 
       - name: Execute dependency scanning [pip-audit]
         run: |
