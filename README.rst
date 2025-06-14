@@ -1,6 +1,6 @@
-***
-UDS
-***
+*************
+UDS - ADDRESS
+*************
 
 |LatestVersion| |PythonVersions| |PyPIStatus| |TotalDownloads| |MonthlyDownloads| |Licence|
 
@@ -12,6 +12,13 @@ Documentation
 User documentation is hosted by ReadTheDocs portal and available under the following link: https://uds.readthedocs.io/
 
 If you want to become a contributor, please read `CONTRIBUTING.md`_ file.
+
+
+How to add ECU?
+---------------
+If you know address of some ECU (or a group of ECUs), please create
+`an issue <https://github.com/mdabrowski1990/uds-address/issues/new?template=01_add_ecu.md>`_
+and provide all the required details, so we could use this information as part of this package.
 
 
 Contact
