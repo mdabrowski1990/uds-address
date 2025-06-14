@@ -7,11 +7,12 @@ UDS - ADDRESS
 This is extension to `py-uds`_ package with addresses of ECUs.
 
 
-Documentation
--------------
-User documentation is hosted by ReadTheDocs portal and available under the following link: https://uds.readthedocs.io/
-
-If you want to become a contributor, please read `CONTRIBUTING.md`_ file.
+ECU address
+-----------
+If you look for an address of a certain ECU, either look for it by spare part number and bus type in
+`ecu section <https://github.com/mdabrowski1990/uds-address/tree/main/uds_address/ecu>`_
+or by OEM, carline and production year, e.g.
+`Hyundai i20 2021 <https://github.com/mdabrowski1990/uds-address/tree/main/uds_address/hyundai/i20/year_2021>`_.
 
 
 How to add ECU?
@@ -21,8 +22,15 @@ If you know address of some ECU (or a group of ECUs), please create
 and provide all the required details, so we could use this information as part of this package.
 
 
+Documentation
+-------------
+This package contains only addresses of ECUs. For full user documentation about UDS go to: https://uds.readthedocs.io/
+
+
 Contact
 -------
+If you want to become a contributor, please read `CONTRIBUTING.md`_ file.
+
 - e-mail: uds-package-development@googlegroups.com
 - group: `UDS package development`_
 - discord: https://discord.gg/y3waVmR5PZ
