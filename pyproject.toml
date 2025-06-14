@@ -1,8 +1,9 @@
 [project]
 name = "py-uds-address"
 description = "Collection of UDS addresses for various ECUs."
-readme = "README.rst"
 requires-python = ">=3.9"
+readme = "README.rst"
+license-files = ["LICENSE"]
 classifiers = [
     "Development Status :: 5 - Production/Stable",
     "Intended Audience :: Developers",
@@ -29,11 +30,14 @@ keywords = [
     "automotive",
     "on-board-diagnostic",
     "obd",
+    "obd2",
     "vehicle-diagnostic",
     "iso14229",
     "iso-14229",
     "iso15765",
     "iso-15765",
+    "ECU",
+    "address",
 ]
 authors = [
     {name="Maciej Dąbrowski", email="maciej.dabrowski@software-quality.pl"},
@@ -94,13 +98,10 @@ version = {attr = "uds_address.__version__"}
     "CONTRIBUTING.md",
     "LICENSE"
 ]
-"uds_address" = [
-    "*.py"
-]
 
 [tool.setuptools.packages.find]
 include = [
-    "uds_address.*"
+    "uds_address.*.py"
 ]
 
 
