@@ -35,7 +35,7 @@ If you want to become a contributor, please read `CONTRIBUTING.md`_ file.
 - group: `UDS package development`_
 - discord: https://discord.gg/y3waVmR5PZ
 
-.. _CONTRIBUTING.md: https://github.com/mdabrowski1990/uds-ecu-address/blob/main/CONTRIBUTING.md
+.. _CONTRIBUTING.md: https://github.com/mdabrowski1990/uds-address/blob/main/CONTRIBUTING.md
 
 .. _UDS package development: https://groups.google.com/g/uds-package-development/about
 
