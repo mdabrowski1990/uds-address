@@ -82,7 +82,6 @@ sorting-imports = [
 [build-system]
 requires = [
     "setuptools >= 65.5.1",
-    "setuptools-scm",
     "wheel"
 ]
 build-backend = "setuptools.build_meta"
@@ -92,17 +91,12 @@ build-backend = "setuptools.build_meta"
 version = {attr = "uds_address.__version__"}
 
 
-[tool.setuptools.package-data]
-"*" = [
-    "README.rst",
-    "CONTRIBUTING.md",
-    "LICENSE"
-]
-
 [tool.setuptools.packages.find]
-include = [
-    "uds_address.*.py"
-]
+include = ["uds_address*"]
+
+
+[tool.setuptools.package-data]
+"*" = ["README.rst", "CONTRIBUTORS.txt", "LICENSE.txt"]
 
 
 [tool.isort]
