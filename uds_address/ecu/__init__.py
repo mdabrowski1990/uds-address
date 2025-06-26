@@ -1,1 +1,1 @@
-"""UDS addresses for all ECUs."""
+"""UDS addresses for all ECUs identified by Spare Part Number."""
