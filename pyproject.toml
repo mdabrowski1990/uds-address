@@ -68,7 +68,7 @@ static-code-analysis = [
     "prospector == 1.17.2",
     "mypy == 1.16.1",
     "vulture == 2.14",
-    "bandit == 1.8.5",
+    "bandit == 1.8.6",
     "pyroma == 4.3.3",
 ]
 dependency-scan = [
