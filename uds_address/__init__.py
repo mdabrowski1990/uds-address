@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """UDS Addresses for various ECUs."""
 
-__version__ = "1.0.0"
+__version__ = "2.0.0"
 __author__ = "Maciej Dąbrowski"
 __maintainer__ = "Maciej Dąbrowski"
 __credits__ = ["Maciej Dąbrowski (https://www.linkedin.com/in/maciej-dabrowski-test-engineer/)"]
