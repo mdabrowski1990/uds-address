@@ -44,13 +44,13 @@ REAR_CAMERA = ECU_99240_Q0000
 STEERING_COLUMN = ECU_56340_Q0100
 WIRELESS_ROOF_ANTENNA = ECU_96510_Q0000
 
-UNKNOWN_ECU_1 = CanAddressingInformation(addressing_format=CanAddressingFormat.NORMAL_11BIT_ADDRESSING,
+UNKNOWN_ECU_1 = CanAddressingInformation(addressing_format=CanAddressingFormat.NORMAL_ADDRESSING,
                                          tx_physical_params={"can_id": 0x7B3},
                                          rx_physical_params={"can_id": 0x7BB},
                                          tx_functional_params={"can_id": 0x7DF},
                                          rx_functional_params={"can_id": 0x7BB})
 
-UNKNOWN_ECU_2 = CanAddressingInformation(addressing_format=CanAddressingFormat.NORMAL_11BIT_ADDRESSING,
+UNKNOWN_ECU_2 = CanAddressingInformation(addressing_format=CanAddressingFormat.NORMAL_ADDRESSING,
                                          tx_physical_params={"can_id": 0x7F1},
                                          rx_physical_params={"can_id": 0x7F9},
                                          tx_functional_params={"can_id": 0x7DF},
