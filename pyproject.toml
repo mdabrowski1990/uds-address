@@ -3,7 +3,6 @@ name = "py-uds-address"
 description = "Collection of UDS addresses for various ECUs."
 requires-python = ">=3.9"
 readme = "README.rst"
-license-files = ["LICENSE"]
 classifiers = [
     "Development Status :: 5 - Production/Stable",
     "Intended Audience :: Developers",
@@ -19,6 +18,7 @@ classifiers = [
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
     "Topic :: Scientific/Engineering :: Interface Engine/Protocol Translator",
     "Topic :: Software Development :: Embedded Systems",
     "Topic :: System :: Monitoring",
@@ -48,7 +48,7 @@ maintainers = [
     {name="UDS Package Development", email="uds-package-development@googlegroups.com"},
 ]
 dependencies = [
-    "py-uds >= 1.1.0"
+    "py-uds == 2.0.0"
 ]
 dynamic = ["version"]
 
@@ -81,10 +81,14 @@ sorting-imports = [
 
 [build-system]
 requires = [
-    "setuptools >= 65.5.1",
+    "setuptools >= 77.0.0",
     "wheel"
 ]
 build-backend = "setuptools.build_meta"
+
+
+[tool.setuptools]
+license-files = ["LICENSE"]
 
 
 [tool.setuptools.dynamic]
