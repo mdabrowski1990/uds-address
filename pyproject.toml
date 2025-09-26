@@ -48,7 +48,7 @@ maintainers = [
     {name="UDS Package Development", email="uds-package-development@googlegroups.com"},
 ]
 dependencies = [
-    "py-uds == 2.0.0"
+    "py-uds == 3.0.0"
 ]
 dynamic = ["version"]
 
