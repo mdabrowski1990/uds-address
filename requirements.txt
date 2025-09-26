@@ -1,2 +1,2 @@
-py-uds==2.0.0
+py-uds==3.0.0
 python-can==4.6.1
