@@ -75,7 +75,7 @@ dependency-scan = [
     "pip-audit == 2.10.0",
 ]
 sorting-imports = [
-    "isort == 6.1.0"
+    "isort == 7.0.0"
 ]
 
 
