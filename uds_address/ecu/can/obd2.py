@@ -75,7 +75,7 @@ ECU_95400_Q0030 = CanAddressingInformation(addressing_format=CanAddressingFormat
                                            tx_functional_params={"can_id": 0x7DF},
                                            rx_functional_params={"can_id": 0x7A8})
 """
-Break Control Module Unite for Hyundai i20.
+Break Control Module Unit for Hyundai i20.
 SPARE PART NUMBER: 95400-Q0030
 
 .. seealso:: https://www.hyundaipartsdeal.com/genuine/hyundai-unit-assy-bcm~95400-3q000.html
